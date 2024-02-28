@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserList</title>
+</head>
+<body>
+    {%for u in users%}
+    
+
+        <li>계정명: {{u.username}}, 이름: {{u.name}}</li>
+    
+    {%endfor%}
+</body>
+</html>
